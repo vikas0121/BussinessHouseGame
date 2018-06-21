@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CellFactory.cs" />
     <Compile Include="Extensions\PanelExtension.cs" />
     <Compile Include="Objects\Bank.cs" />
     <Compile Include="Enums.cs" />
@@ -48,9 +49,11 @@
     <Compile Include="Objects\Board\GameBoard.cs" />
     <Compile Include="Objects\Board\Panel.cs" />
     <Compile Include="Objects\Cell\Cell.cs" />
+    <Compile Include="Objects\Cell\GoldHotel.cs" />
     <Compile Include="Objects\Cell\Hotel.cs" />
     <Compile Include="Objects\Cell\Jail.cs" />
     <Compile Include="Objects\Cell\Lottery.cs" />
+    <Compile Include="Objects\Cell\PlatinumHotel.cs" />
     <Compile Include="Objects\Game\Game.cs" />
     <Compile Include="Objects\Player.cs" />
     <Compile Include="Program.cs" />

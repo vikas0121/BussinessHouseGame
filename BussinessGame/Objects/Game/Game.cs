@@ -14,7 +14,6 @@ namespace BussinessGame.Objects.Game
         public Player Player2 { get; set; }
         public GameBoard GameBoard { get; set; }
         private int _chances;
-        private Bank Bank = Bank.Instance;
         public Enums.CellType CurrentStatus { get; set; }
 
         public Game(int chances)
@@ -55,9 +54,9 @@ namespace BussinessGame.Objects.Game
             var result = objCellFactory.CreateCell(panel.CellType);
             if (result != null)
             {
-
+                Bank objBank = new Bank();
                 player.AddMoneyEarned(result.Amount);
-                Bank.AddMoneyEarned(result.Amount);
+                objBank.AddMoneyEarned(result.Amount);
             }
         }
     }

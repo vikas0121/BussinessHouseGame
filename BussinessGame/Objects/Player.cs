@@ -12,17 +12,17 @@ namespace BussinessGame.Objects
         public string Name { get; set; }
         public GameBoard GameBoard { get; set; }
         private int _moneyEarned = 1000;
-        //public int MoneyEarned
-        //{
-        //    get
-        //    {
-        //        return this._moneyEarned;
-        //    }
-        //    set
-        //    {
-        //        this._moneyEarned = value;
-        //    }
-        //}
+        public int MoneyEarned
+        {
+            get
+            {
+                return this._moneyEarned;
+            }
+            //set
+            //{
+            //    this._moneyEarned = value;
+            //}
+        }
 
         public Player(string name, GameBoard gameBoard)
         {
