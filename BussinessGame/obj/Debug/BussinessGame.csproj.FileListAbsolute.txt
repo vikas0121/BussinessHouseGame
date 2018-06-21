@@ -1,0 +1,6 @@
+c:\users\vikaskumar\documents\visual studio 2013\Projects\BussinessGame\BussinessGame\bin\Debug\BussinessGame.exe.config
+c:\users\vikaskumar\documents\visual studio 2013\Projects\BussinessGame\BussinessGame\bin\Debug\BussinessGame.exe
+c:\users\vikaskumar\documents\visual studio 2013\Projects\BussinessGame\BussinessGame\bin\Debug\BussinessGame.pdb
+c:\users\vikaskumar\documents\visual studio 2013\Projects\BussinessGame\BussinessGame\obj\Debug\BussinessGame.csprojResolveAssemblyReference.cache
+c:\users\vikaskumar\documents\visual studio 2013\Projects\BussinessGame\BussinessGame\obj\Debug\BussinessGame.exe
+c:\users\vikaskumar\documents\visual studio 2013\Projects\BussinessGame\BussinessGame\obj\Debug\BussinessGame.pdb
